@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Array_and_Input/src"/>
+	<classpathentry kind="src" path="WebdriverSample/src"/>
+	<classpathentry kind="output" path="Array_and_Input/bin"/>
+</classpath>
