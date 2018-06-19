@@ -1,0 +1,78 @@
+ip: 127.0.0.1
+user id: root
+pwd : root
+dbname: test
+
+"jdbc:mysql://127.0.0.1/test","root","root"
+=========================================================
+functions*
+
+exception handling
+
+
+functions* 
+=======================
+	-getTitle()
+	-getCurrentURL()		: https:///
+	-getPageSource()		
+
+	-getScreenshotAs()
+	-get("https://www.yahoo.com/")
+	-navigateTo("/aboutus.html")
+
+
+	-assertEquals()
+
+			a="hi"
+			assertEquals("hello",a);
+	-equals()
+			a="hi"
+			if(a.equals("Hi") ){} else {}
+		
+	-ignoreCaseEquals()
+			if(a.ignoreCaseEquals("Hi") ){} else {}
+	
+	-
+		example:
+				"this is java web driver program ........ web driver is 					automat....."
+
+
+	-contains("web driver")
+	-startsWith("web driver")
+	-endsWith("web driver")
+	-subString(0,10)  = 0 to 9
+	-indexOf("web") =12
+	-charAt(2)  = i
+	-toUpperCase()
+	-toLowerCase()
+	-split(" ")
+
+
+	-findElement(by.name("n1"))
+	-findElements(by.tagName("input"))
+
+	-sleep()
+
+	-by.id("AB")
+	-by.name("n1")
+	-by.className()
+	-by.linkText("Home Page")
+	-by.partilaLinkText("HOme")
+	-by.tagName("div")
+	-by.cssSelector()
+	-by.xpath()
+	etc.
+
+
+
+
+
+
+
+
+
+
+
+
+	
+

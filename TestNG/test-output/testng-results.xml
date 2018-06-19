@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4516" started-at="2018-06-06T06:42:33Z" finished-at="2018-06-06T06:42:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4516" started-at="2018-06-06T06:42:33Z" finished-at="2018-06-06T06:42:38Z">
+      <class name="testcase.LoginwithPropertyFile">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2018-06-06T06:42:33Z" finished-at="2018-06-06T06:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-06-06T06:42:33Z" finished-at="2018-06-06T06:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-06-06T06:42:33Z" finished-at="2018-06-06T06:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="f" duration-ms="3671" started-at="2018-06-06T06:42:33Z" data-provider="dp" finished-at="2018-06-06T06:42:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[monika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[monika@765]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-06-06T06:42:33Z" finished-at="2018-06-06T06:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-06-06T06:42:37Z" finished-at="2018-06-06T06:42:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="f" duration-ms="281" started-at="2018-06-06T06:42:37Z" data-provider="dp" finished-at="2018-06-06T06:42:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[monika12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[monika@765]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-06-06T06:42:37Z" finished-at="2018-06-06T06:42:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-06-06T06:42:37Z" finished-at="2018-06-06T06:42:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-06-06T06:42:37Z" finished-at="2018-06-06T06:42:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="f" duration-ms="297" started-at="2018-06-06T06:42:37Z" data-provider="dp" finished-at="2018-06-06T06:42:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[monika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[monika@675]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-06-06T06:42:38Z" finished-at="2018-06-06T06:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f1()[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="f1" duration-ms="1" started-at="2018-06-06T06:42:38Z" finished-at="2018-06-06T06:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-06-06T06:42:38Z" finished-at="2018-06-06T06:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-06-06T06:42:38Z" finished-at="2018-06-06T06:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-06-06T06:42:38Z" finished-at="2018-06-06T06:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-06-06T06:42:38Z" finished-at="2018-06-06T06:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-06-06T06:42:38Z" finished-at="2018-06-06T06:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-06-06T06:42:38Z" finished-at="2018-06-06T06:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="afterTest" is-config="true" duration-ms="94" started-at="2018-06-06T06:42:38Z" finished-at="2018-06-06T06:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-06-06T06:42:38Z" finished-at="2018-06-06T06:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="f2()[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="f2" duration-ms="0" started-at="2018-06-06T06:42:38Z" finished-at="2018-06-06T06:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method status="PASS" signature="f3()[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="f3" duration-ms="0" started-at="2018-06-06T06:42:38Z" finished-at="2018-06-06T06:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f3 -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcase.LoginwithPropertyFile@3a7442c7]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-06-06T06:42:38Z" finished-at="2018-06-06T06:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcase.LoginwithPropertyFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

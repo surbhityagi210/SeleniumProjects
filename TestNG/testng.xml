@@ -1,0 +1,13 @@
+<suite name="TestNG.Suite">
+<listeners>
+<listener class-name = "testcase.testNGListeners"></listener>
+</listeners>	
+	<test name="xmltest">
+
+		<classes>
+			<class name="testcase.LoginwithPropertyFile" />
+			
+		</classes>
+	</test>
+
+</suite>

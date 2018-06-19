@@ -1,0 +1,6 @@
+06/02/2018 11:59:43 INFO  testNGAttributes:14 - function e is start
+06/02/2018 11:59:43 INFO  testNGAttributes:26 - function  (e) is executed
+06/02/2018 12:01:01 INFO  testNGAttributes:14 - ======================================
+06/02/2018 12:01:01 INFO  testNGAttributes:16 - function e is start
+06/02/2018 12:01:01 ERROR testNGAttributes:30 - code is failed..java.lang.ArithmeticException: / by zero
+06/02/2018 12:01:01 INFO  testNGAttributes:32 - function  (e) is executed

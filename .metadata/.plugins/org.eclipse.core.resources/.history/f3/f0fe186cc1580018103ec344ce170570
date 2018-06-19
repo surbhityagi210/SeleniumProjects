@@ -1,0 +1,79 @@
+package WebMethod;
+
+import static org.junit.Assert.*;
+
+import java.util.List;
+import java.util.ArrayList;
+import java.util.concurrent.TimeUnit;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Bse {
+
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+	}
+
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+	}
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@SuppressWarnings("unchecked")
+	@Test
+	public void test() {
+		System.out.println("Perform action");
+		WebDriver driver = new FirefoxDriver();
+		String URL = "https://www.bseindia.com/";
+		driver.get(URL);
+		@SuppressWarnings("rawtypes")
+		ArrayList data = new ArrayList();
+		String value[][] = new String[6][4];
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		for (int i = 0; i < value.length; i++) {
+			List<WebElement> list = driver.findElements(By.xpath("//*[@id='neweq1']/div[1]/table/tbody/tr[./td[@id or @class]]["+(i+1)+"]/td"));
+			@SuppressWarnings({ "rawtypes" })
+			List<String> each = new ArrayList();
+			for (int j = 0; j < value[i].length; j++) {
+				value[i][j] = list.get(j).getText();
+				each.add(list.get(j).getText());
+				}
+			data.add(each);
+			}
+		
+		for (int i = 0; i < value.length; i++) {
+			for (int j = 0; j < value[i].length; j++) {
+				if(j != (value[i].length -1) ) {
+					System.out.print(value[i][j]+" ,");
+				} else {
+					System.out.print(value[i][j]);
+				}
+			}
+			
+			System.out.println();
+		}
+		
+		System.out.println("=================================");
+		for(Object each : data) {
+			System.out.println((List<String>)each);
+		}
+
+	}
+
+
+	}

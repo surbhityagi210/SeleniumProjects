@@ -1,0 +1,32 @@
+package Session_3_Questions;
+
+import java.util.Scanner;
+
+public class QuesC8 {
+
+	public static void main(String[] args)
+	{
+		String s;
+		String c;
+		//int ci=0;
+		@SuppressWarnings("resource")
+		Scanner SC = new Scanner(System.in);
+		System.out.println("Enter String:");
+		s = SC.nextLine();
+		System.out.println("Enter string to serach:");
+		c = SC.nextLine();
+		
+		System.out.println("Entered String is:" +s);
+		String ss[]=s.split(" ");
+		for(int i=0;i<ss[i].length();i++)
+		{
+			//int ch = ss[i].charAt(0);
+			if(c==ss[i])
+			{
+				System.out.println(ss[i]);
+			}
+			
+		}
+	}
+
+}

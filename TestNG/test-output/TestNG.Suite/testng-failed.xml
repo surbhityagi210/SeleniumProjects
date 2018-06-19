@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG.Suite]">
+  <listeners>
+    <listener class-name="testcase.testNGListeners"/>
+  </listeners>
+  <test thread-count="5" name="xmltest(failed)">
+    <classes>
+      <class name="testcase.Getdatafromexcel">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="f"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testcase.Getdatafromexcel -->
+    </classes>
+  </test> <!-- xmltest(failed) -->
+</suite> <!-- Failed suite [TestNG.Suite] -->

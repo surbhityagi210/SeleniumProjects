@@ -1,0 +1,13 @@
+Hybrid framework
+=================
+	is combination of key driver, data driver , logger etc.
+	and testng/junit 
+
+
+
+**log4J  : works with any types of java class 
+		: log4j file 
+		
+**TestNG Listner: works with only testNg class 
+		
+	

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="133" started-at="2018-06-02T06:31:00Z" finished-at="2018-06-02T06:31:01Z">
+    <groups>
+      <group name="a">
+        <method signature="testNGAttributes.e()[pri:0, instance:excelFatch.testNGAttributes@31dc339b]" name="e" class="excelFatch.testNGAttributes"/>
+      </group> <!-- a -->
+      <group name="b">
+        <method signature="testNGAttributes.b()[pri:1, instance:excelFatch.testNGAttributes@31dc339b]" name="b" class="excelFatch.testNGAttributes"/>
+      </group> <!-- b -->
+    </groups>
+    <test name="Test" duration-ms="133" started-at="2018-06-02T06:31:00Z" finished-at="2018-06-02T06:31:01Z">
+      <class name="excelFatch.testNGAttributes">
+        <test-method status="PASS" signature="e()[pri:0, instance:excelFatch.testNGAttributes@31dc339b]" name="e" duration-ms="49" started-at="2018-06-02T06:31:00Z" finished-at="2018-06-02T06:31:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e -->
+        <test-method status="PASS" signature="b()[pri:1, instance:excelFatch.testNGAttributes@31dc339b]" name="b" duration-ms="4" started-at="2018-06-02T06:31:01Z" depends-on-methods="excelFatch.testNGAttributes.e" finished-at="2018-06-02T06:31:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+      </class> <!-- excelFatch.testNGAttributes -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

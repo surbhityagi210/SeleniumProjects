@@ -1,0 +1,36 @@
+package Session_3_Questions;
+
+import java.util.Scanner;
+
+public class QuesC6 {
+
+	public static void main(String[] args)
+	{
+		String s;
+		int ch;
+		int lower = 0;
+		int upper = 0;
+		@SuppressWarnings("resource")
+		Scanner SC = new Scanner(System.in);
+		System.out.println("Enter String:");
+		s = SC.nextLine();
+		
+		System.out.println("Entered String is:" +s);
+		for(int i=0;i<s.length();i++)
+		{
+			ch = s.charAt(i);
+			if(ch>=65 && ch<=90)
+			{
+				++upper;
+			}
+			else if (ch>=91 && ch<=122)
+			{
+				++lower;
+			}
+			System.out.println("Upper case letters are:" +upper);
+			System.out.println("Lower case letters are:" +lower);
+		}
+
+	}
+
+}

@@ -1,0 +1,55 @@
+package WebMethod;
+
+import static org.junit.Assert.*;
+
+import java.util.concurrent.TimeUnit;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class FF_DragDrop {
+
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+	}
+
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+	}
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void test() {
+		WebDriver driver = new FirefoxDriver();
+		String URL = "http://192.168.1.91/FoodFinder";
+		driver.get(URL);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		WebElement BtnLogin = driver.findElement(By.xpath("//*[@id='ctl01']/header/div[1]/div[5]/a"));
+		BtnLogin.click();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		WebElement txtUname = driver.findElement(By.xpath("//*[@id='txtUserName']"));
+		txtUname.sendKeys("raj.tyagidw@gmail.com");
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		WebElement txtPwd = driver.findElement(By.xpath("//*[@id='ucLogin1_txtPassword']"));
+		txtUname.sendKeys("Newworld@1");
+		
+		driver.findElement(By.xpath("//*[@id='Form1']/header/div[1]/div[3]/ul/li[1]/a")).click();
+		driver.findElement(By.xpath("//*[@id='Form1']/header/div[1]/div[3]/ul/li[1]/ul/li[6]/a")).click();
+		driver.findElement(By.xpath("//*[@id='B12']/a")).click();
+	}
+
+}

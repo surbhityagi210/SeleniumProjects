@@ -1,0 +1,76 @@
+package WebMethod;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class Naukri_Reg {
+
+	public static void main(String[] args) {
+		WebDriver driver = new FirefoxDriver();
+		String URL = "https://www.naukri.com/";
+		driver.get(URL);
+		
+		try
+		{
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		WebElement Regbtn = driver.findElement(By.xpath("//div[@class='registSec']//input"));
+		Regbtn.click();
+		System.out.println(driver.getTitle());
+		
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		WebElement FresherBtntxt = driver.findElement(By.xpath("//div[@class='box']//p"));
+		System.out.println(FresherBtntxt.getText());
+		
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		WebElement FresherBtn = driver.findElement(By.xpath("//div[@class='fresherCont']//button"));
+		FresherBtn.click();
+		System.out.println(FresherBtn.getText());
+		
+		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		Thread.sleep(5000);
+		WebElement Nametxt = driver.findElement(By.xpath("//input[@name='fname']"));
+		Nametxt.clear();
+		Nametxt.sendKeys("Arun Kumar");
+		
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		WebElement Emailtxt = driver.findElement(By.xpath("//input[@name='email']"));
+		Emailtxt.clear();
+		Emailtxt.sendKeys("arun.kumardataworld@gmail.com");
+		
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		WebElement Passwordtxt = driver.findElement(By.xpath("//input[@name='password']"));
+		Passwordtxt.clear();
+		Passwordtxt.sendKeys("123456");
+		
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		WebElement MNumbertxt = driver.findElement(By.xpath("//input[@name = 'number']"));
+		MNumbertxt.clear();
+		MNumbertxt.sendKeys("8956235689");
+		
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		WebElement LocationDD = driver.findElement(By.xpath("//input[@name='city']"));
+		Select DDSelect = new Select(LocationDD);
+		DDSelect.selectByVisibleText("Delhi");
+		
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		WebElement UploadBtn = driver.findElement(By.xpath("//input[@name='uploadCV']"));
+		UploadBtn.sendKeys("C:\\Users\\tyagi.s\\Downloads\\Arun_QA.doc");
+		
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		WebElement SubmitBtn = driver.findElement(By.xpath("//input[@name='basicDetailSubmit']"));
+		SubmitBtn.click();
+		}
+		catch(Exception e)
+		{
+			
+		}
+
+		
+	}
+
+}
